@@ -9,4 +9,4 @@ For Now I know:
 1. Repl.it
 1. CHALK
 
-I've done my B.Tech from UPES Dehradun in Computer Science with specialisation in Big Data.
+
