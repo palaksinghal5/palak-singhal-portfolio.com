@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --dark-pink: #dd5681;
+    --pale-yellow: #E8A87C;
+    --dark-orange: #E27D60;
+    --light-green: #85DCBB;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+  
+    background: linear-gradient(-70deg, rgba(0,0,0,0) 30%, var(--light-green) 30%),url('images/IMG-20200122-WA0003\ copy\ 2.jpg');
+}
+
+hr {
+    margin: 2rem 0rem;
+
+}
+
+/**spaces**/
+
+.margin-md{
+    margin: 2rem;
+}
+
+/**container**/
+
+.container {
+    padding-left: 0rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+.container-left {
+    max-width: 300px;
+    margin: auto;
+}
+
+/**links**/
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.link-primary {
+    background-color: var(--dark-pink);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary {
+    color: var(--dark-pink);
+    border-radius: 0.5rem;
+    border: 1px solid var(--dark-pink);
+}
+
+/**look into BEM naming convention for CSS**/
+
+/** lists **/
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+    overflow-wrap: break-word;
+
+}
+
+
+/** navigation **/
+
+.navigation {
+    background-color: var(--dark-pink);
+    color: white;
+    padding: 0.1rem;
+    border-bottom-left-radius: 2rem;
+
+}
+
+.navigation .nav-pills {
+    text-align: left;
+}
+
+.navigation .link {
+    color: white;
+
+}
+
+.navigation .link-active {
+    font-weight: bold;
+    color: black;
+    font-size: large;
+}
+
+/** header **/
+
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+    
+}
+
+.hero .hero-image {
+    max-width: 35%;
+    display: block;
+    margin: auto;
+    float: right;
+    height:auto;
+    
+}
+
+.hero .hero-heading {
+    padding-top: 5rem;
+    padding-left: 5rem;
+    color: black;
+    text-align: left;
+
+}
+
+.hero .heading-inverted {
+    color: var(--dark-pink);
+}
+
+/** section **/
+
+.section{
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+    
+}
+
+.ow{
+    background-color: var(--pale-yellow);
+}
+
+/**footer**/
+.footer{
+    background-color: var(--dark-pink);
+    
+    text-align: center;
+    color: white;
+    
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border-top-right-radius: 30rem;
+
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
